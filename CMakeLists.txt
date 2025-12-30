@@ -3,4 +3,6 @@ project(Compiler)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Compiler main.cpp)
+add_executable(Compiler main.cpp
+        Lexer/Lexer.cpp
+        Lexer/Lexer.h)
