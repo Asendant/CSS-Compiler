@@ -4,5 +4,8 @@ project(Compiler)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(Compiler main.cpp
-        Lexer/Lexer.cpp
-        Lexer/Lexer.h)
+        src/Lexer/Lexer.cpp
+        src/Lexer/Lexer.h
+        src/FileScanner/FileScanner.cpp
+        src/FileScanner/FileScanner.h
+)
