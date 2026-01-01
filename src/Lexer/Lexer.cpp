@@ -11,5 +11,13 @@ namespace Lexer {
 
         const std::string sourceCode = Scanner::FileScanner::ScanFile(pathName);
         std::cout << sourceCode << std::endl;
+
+        std::string currentLexeme;
+
+        for (int i = 0; i < sourceCode.length(); i++) {
+            std::string currentCharacter;
+            currentCharacter += sourceCode[i];
+            currentLexeme += currentCharacter;
+        }
     }
 }
