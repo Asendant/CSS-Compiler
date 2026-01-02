@@ -10,4 +10,5 @@ add_executable(Compiler main.cpp
         src/FileScanner/FileScanner.h
         src/Lexer/TokenTypes.h
         src/Lexer/token.h
+        src/Lexer/TokenLookupTable.h
 )

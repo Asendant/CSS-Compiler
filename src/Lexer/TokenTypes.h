@@ -8,7 +8,7 @@
 #include <unordered_map>
 
 namespace Lexer {
-    enum class TokenTypes {
+    enum class TokenType {
         // Keywords
         FUNCTION, IF, ELSE, ELSE_IF, WHILE, FOR, RETURN, VAR, // 0-7
         // Types
